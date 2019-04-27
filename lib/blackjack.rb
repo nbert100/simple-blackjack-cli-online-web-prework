@@ -41,8 +41,8 @@ def hit?
   prompt_user
   get_user_input
   user_input = answer
-  if answer == "s"
-    puts 
+  if answer == "h"
+    puts card_total + deal_card
   
   # code hit? here
 end
