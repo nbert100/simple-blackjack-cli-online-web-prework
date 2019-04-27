@@ -42,8 +42,8 @@ def hit?
   get_user_input
   user_input = answer
   if answer == "h"
-    puts card_total + deal_card
-  
+    puts card_total += deal_card
+  elsif answer == "s"
   # code hit? here
 end
 
