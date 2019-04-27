@@ -38,14 +38,12 @@ def initial_round
 end
 
 def hit?
-  loop do
-    puts prompt_user
-    answer = gets.chomp
-    break if answer == "s"
-end
-puts card_total
-if answer == "h"
-  
+prompt_user 
+  user_input = get_user_input
+  if user_input == "h"
+    card_total += deal_card 
+  elsif user_input == "s"
+    card_total
 end
 
 def invalid_command
