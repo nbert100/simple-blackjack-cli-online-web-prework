@@ -40,7 +40,7 @@ end
 def hit?
   loop do
     puts prompt_user
-    answer = 
+    answer = gets.chomp
 end
 end
 
