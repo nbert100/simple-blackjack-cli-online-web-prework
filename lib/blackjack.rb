@@ -43,6 +43,9 @@ def hit?
     answer = gets.chomp
     break if answer == "s"
 end
+puts card_total
+if answer == "h"
+  
 end
 
 def invalid_command
