@@ -38,6 +38,10 @@ def initial_round
 end
 
 def hit?
+  prompt_user
+  get_user_input
+  puts card_total
+  
   # code hit? here
 end
 
