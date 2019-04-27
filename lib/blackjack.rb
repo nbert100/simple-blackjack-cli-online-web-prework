@@ -41,6 +41,7 @@ def hit?
   prompt_user
   get_user_input
   puts card_total
+  loop do 
   
   # code hit? here
 end
