@@ -38,10 +38,11 @@ def initial_round
 end
 
 def hit?
-  loop do 
-    puts prompt_user
-    answer = gets.chomp
-    break if answer == "s"
+  prompt_user
+  get_user_input
+  user_input = answer
+  if answer == "s"
+    puts 
   
   # code hit? here
 end
