@@ -44,6 +44,7 @@ prompt_user
     card_total += deal_card 
   elsif user_input == "s"
     card_total
+  end
 end
 
 def invalid_command
