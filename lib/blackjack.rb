@@ -39,7 +39,8 @@ end
 
 def hit?
   loop do
-    puts 
+    puts prompt_user
+    answer = 
 end
 end
 
