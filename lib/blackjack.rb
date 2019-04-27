@@ -39,7 +39,7 @@ end
 
 def hit?
   loop do
-    
+    puts 
 end
 end
 
