@@ -41,6 +41,7 @@ def hit?
   loop do 
     puts prompt_user
     answer = gets.chomp
+    break if
   
   # code hit? here
 end
