@@ -40,6 +40,7 @@ end
 def hit?
   loop do 
     puts prompt_user
+    answer = gets.chomp
   
   # code hit? here
 end
