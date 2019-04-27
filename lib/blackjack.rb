@@ -41,8 +41,10 @@ def hit?
 prompt_user
 get_user_input
 if answer == "h"
-  
-  
+  card_total += deal_card
+elsif answer == "s"
+card_total
+end  
 end
 
 def invalid_command
