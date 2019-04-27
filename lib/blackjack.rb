@@ -41,6 +41,7 @@ def hit?
   loop do
     puts prompt_user
     answer = gets.chomp
+    break if answer == "s"
 end
 end
 
