@@ -46,10 +46,10 @@ end
 def hit?(card_total)
 prompt_user
 get_user_input
-answer = get_user_input
-if answer == "h"
+user_input = get_user_input
+if user_input == "h"
  puts card_total += deal_card
-elsif answer == "s"
+elsif user_input == "s"
 puts card_total
 else 
   puts invalid_command
