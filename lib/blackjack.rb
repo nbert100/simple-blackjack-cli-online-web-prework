@@ -43,13 +43,14 @@ def invalid_command
   get_user_input
 end
 
+answer = get_user_input
 def hit?(card_total)
 prompt_user
 get_user_input
-user_input = get_user_input
-if user_input == "h"
+
+if answer == "h"
  puts card_total += deal_card
-elsif user_input == "s"
+elsif answer == "s"
 puts card_total
 else 
   puts invalid_command
