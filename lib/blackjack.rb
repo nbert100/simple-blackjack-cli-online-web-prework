@@ -45,12 +45,13 @@ end
 
 
 def hit?(card_total)
+prompt_user
+get_user_input
 answer = get_user_input
-
 if answer == "h"
  puts card_total += deal_card
 elsif answer == "s"
-puts card_total
+return card_total
 else 
   puts invalid_command
   end  
