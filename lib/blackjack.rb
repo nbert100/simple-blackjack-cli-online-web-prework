@@ -49,11 +49,11 @@ prompt_user
 get_user_input
 answer = get_user_input
 if answer == "h"
- puts card_total += deal_card
+ return card_total += deal_card
 elsif answer == "s"
 return card_total
 else 
-  puts invalid_command
+  return invalid_command
   end  
 return card_total
 end
