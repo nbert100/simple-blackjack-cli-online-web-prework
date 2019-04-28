@@ -53,8 +53,7 @@ elsif answer == "s"
 puts card_total
 else 
   puts invalid_command
-  return prompt_user
-end  
+  end  
 return card_total
 end
 
