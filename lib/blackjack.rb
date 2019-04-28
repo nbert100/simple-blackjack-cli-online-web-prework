@@ -45,6 +45,7 @@ end
 
 
 def hit?(card_total)
+answer = get_user_input
 prompt_user
 get_user_input
 
