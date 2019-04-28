@@ -43,7 +43,7 @@ def invalid_command
   get_user_input
 end
 
-answer = get_user_input
+
 def hit?(card_total)
 prompt_user
 get_user_input
